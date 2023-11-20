@@ -32,4 +32,4 @@ const productSchema =new mongoose.Schema({
       //enum:['ikea','liddy','caressa','marcas']
    },
 })
- module.exports = mongoose.model('products', productSchema)
+ module.exports = mongoose.model('product', productSchema)
